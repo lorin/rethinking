@@ -19,11 +19,11 @@ The first formula in the list is the probability of the outcome (likelihood); th
 
 # Quick Installation
 
-You can find a manual with expanded installation and usage instructions here: ``http://xcelab.net/rm/software/``
+You can find a manual with expanded installation and usage instructions here: <http://xcelab.net/rm/software/>
 
 Here's the brief verison. 
 
-You'll need to install ``rstan`` first. Go to ``http://mc-stan.org`` and follow the instructions for your platform. The biggest challenge is getting a C++ compiler configured to work with your installation of R. The instructions at ``https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started`` are quite thorough. Obey them, and you'll likely succeed.
+You'll need to install ``rstan`` first. Go to <http://mc-stan.org> and follow the instructions for your platform. The biggest challenge is getting a C++ compiler configured to work with your installation of R. The instructions at <https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started> are quite thorough. Obey them, and you'll likely succeed.
 
 There are some advantages to accessing Stan through ``cmdstanr`` rather than rstan. These advantages include faster updates and therefore quicker access to new features. If you want to access Stan using the ``cmdstanr`` package instead, then you may install that as well with
 ```
